@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    padding-left: 10px;
+}
+
+.navbar{
+    margin: 0 1rem;
+    font-size: 16px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+
+section{
+    padding: 2rem 9%;
+}
+
+/* About */
+
+.home{
+    min-height: 100vh;
+    padding-top: 10px;
+    padding-left: 12rem;
+}
+
+.home .row{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    gap: 1.5rem
+}
+
+.home .row .content{
+    flex: 1 1 42rem;
+}
+
+.home .row .content .title{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.home .row .content p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding: 1rem 0;
+}
+
+
+
+.home .row .img{
+    flex: 1 1 42rem;
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.home .row .img img{
+    width: 619px;
+    height: 413px;
+}
+
+/* TRY */
+
+.try h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #8b8ba5;
+    text-align: center;
+}
+
+.try .header{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #272042;
+    text-align: center;
+}
+
+.try .row .content ul{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.try .row .content ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+
+.try .row .img img{
+    margin-left: 30px;
+    width: 271px;
+    padding: 10px;
+}
+
+.try .row .nama{
+    font-size: 18px;
+    text-align: center;
+}
+
+.try .row .nama h3{
+    display: inline;
+    padding: 55px;
+}
+
+.try .row .nama .pembuat{
+    text-align: center;
+}
+
+.try .row .nama .pembuat p{
+    display: inline;
+    font-size: smaller;
+    padding: 90px;
+}
+
+.try .row .nama .star img{
+    padding: 60px;
+}
+
+.comment p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #272042;
+}
+.comment .profil{
+    align-items: center;
+    position: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 1.5rem;
+}
+
+.comment .profil img{
+    flex: 1 1 42rem;
+    margin-left: 300px;
+}
+
+
+.comment .profil p{
+    flex: 1 1 42rem;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.comment .jumlah{
+    text-align: center;
+}
+
+.comment .jumlah p{
+    display: inline;
+    padding: 30px;
+}
+
+.comment .jumlah .info p{
+    padding: 80px;
+    font-size: 15px;
+}
+
+.download .row{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    gap: 1.5rem
+}
+
+.download .content h2{
+    line-height: 70px;
+    font-size: 46px;
+}
+
+.download .content p{
+    line-height: 34px;
+    font-size: 20px;
+    color: #8b8ba5;
+}
+
+.download .platform{
+    align-items: center;
+}
+
+.download .platform img{
+    padding: 10px;
+    display: inline;
+}
+
+.footer .row{
+     position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+}
